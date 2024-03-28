@@ -1,8 +1,11 @@
 {
-  "name": "atm-machine",
+  "name": "amaan-atm-machine",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "atm-machine": "index.js"
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
